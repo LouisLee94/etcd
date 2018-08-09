@@ -7,8 +7,9 @@ This is official etcd documentation.
 Still working in progress...
 
 * :ref:`set-up`: setting up an etcd cluster.
-* :ref:`monitor`: monitoring an etcd cluster.
+* :ref:`operate`: operating an etcd cluster.
 * :ref:`client-architecture`: describes etcd client components.
+* :ref:`client-feature-matrix`: compares client features.
 
 .. toctree::
    :maxdepth: 3
@@ -24,12 +25,6 @@ Still working in progress...
 
 .. toctree::
    :maxdepth: 3
-   :caption: Monitor
-
-   monitor
-
-.. toctree::
-   :maxdepth: 3
    :caption: FAQs
 
    faq
@@ -39,3 +34,9 @@ Still working in progress...
    :caption: Architecture
 
    client-architecture
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Reference
+
+   client-feature-matrix
